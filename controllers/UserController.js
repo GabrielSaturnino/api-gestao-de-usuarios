@@ -153,23 +153,3 @@ class UserController {
 }
 
 module.exports = new UserController();
-
-// TABELA DE USUARIOS
-// CREATE TABLE users(
-//     id INT PRIMARY KEY AUTO_INCREMENT,
-//     name VARCHAR(30) NOT NULL,
-//     email VARCHAR(60) NOT NULL UNIQUE,
-//     password VARCHAR(200) NOT NULL,
-//     role INT
-// );
-
-// TABELA DE TOKENS
-// CREATE TABLE passwordToke(
-//     idtoken INT PRIMARY KEY AUTO_INCREMENT,
-//     token VARCHAR(200) NOT NULL,
-//     user_id INT,
-//     used TINYINT,
-
-//     FOREIGN KEY(user_id)
-//     REFERENCES users(id)
-// );
